@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #335BFF;;
+}
+
+.cuadrado-principal {
+    margin-top: 100px;
+    background-color: white;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+img {
+    width: 400px;
+    height: 600px;   
+}
+
+.img-one{
+    -webkit-transform: rotate(-15deg);
+}
+
+.img-two{
+    -webkit-transform: rotate(15deg);
+}

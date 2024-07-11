@@ -1,0 +1,63 @@
+:root {
+    --celeste: #33FFEC;
+    --rosado:#FC33FF;
+    --azul: #335BFF;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrado-principal {
+    border: 4px solid var(--celeste);
+    width: 500px;
+    height: 700px;
+    margin-top: 20px;
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.child-one {
+    border: 4px solid var(--celeste);
+    width: 470px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.child-two {
+    border: 4px solid var(--celeste);
+    width: 440px;
+    height: 25px;
+}
+
+.child-three {
+    border: 4px solid var(--rosado);
+    width: 440px;
+    height: 355px;
+}
+
+.child-four {
+    border: 4px solid var(--celeste);
+    width: 470px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.child-four-one {
+    border: 4px solid var(--rosado);
+    width: 450px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.child-four-two {
+    border: 4px solid var(--rosado);
+    width: 450px;
+    height: 30px;
+}
