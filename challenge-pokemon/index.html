@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is that Pokemon</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor-pokedex">
+        <header class="contenedor-circulos">
+            <div class="circulo-one"></div>
+            <div class="circulos">
+                <div class="circulo circulos-one"></div>
+                <div class="circulo circulos-two"></div>
+                <div class="circulo circulos-three"></div>
+            </div>
+        </header>
+        <div class="border">
+            <main class="contenido-principal">
+                <div class="contenedor-pokemon">
+                    <div class="imagen-pokemon">
+                        <div>
+                            <p class="titulo">Who's That Pókemon?</p>
+                        </div>
+                        <div class="pokemon">
+                            <div class="posicion-img">
+                                <img id="imagen" src="" alt="">
+                            </div>
+                            <div class="informacion">
+                                <p class="info" id="result"></p>
+                                <p class="info" id="result-height"></p>
+                                <p class="info" id="result-weight"></p>
+                                <p class="info" id="result-type"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="contenedor-botones">
+            <input class="botones boton1" type="button" id="option1" onclick="checkAnswer(this)">
+            <input class="botones boton2" type="button" id="option2" onclick="checkAnswer(this)">
+            <input class="botones boton3" type="button" id="option3" onclick="checkAnswer(this)">
+        </div>
+        <div class="contenedor-boton-iniciar">
+            <input class="boton-iniciar" type="submit" value="Iniciar Juego" onclick="startGame()">
+        </div>
+    </div>
+</body>
+
+</html>
